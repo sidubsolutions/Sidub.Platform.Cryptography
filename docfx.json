@@ -1,0 +1,16 @@
+{
+  "metadata": [
+    // Filter...
+    {
+      "src": [
+        {
+          "files": [ "**/*.csproj" ],
+          "exclude": [ "**/bin/**", "**/obj/**" ],
+          "src": "./Cryptography/"
+        }
+      ],
+      "dest": "./_DocFX/Cryptography/",
+      "shouldSkipMarkup": false
+    }
+  ]
+}
